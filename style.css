@@ -1,0 +1,79 @@
+html, body {
+    width: 420mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    margin:auto;
+}
+.test {
+    background-color: white;
+    width: 420mm;
+    height: 297mm;
+    min-width: 200px;
+    margin:0;
+    position:relative;
+}
+
+
+.speccontainer {
+    position: absolute;
+    left: 53mm;
+    top:52mm;
+}
+
+
+
+.specitem {
+display:flex;
+/* position: absolute;
+left: 42mm;
+top:39mm; */
+font-family: 'FontName';
+font-size: 6mm;
+width: 335mm;
+line-height: 1.33;
+max-height:150mm;
+text-align: center;
+padding: 0%;
+margin: -3.6%;
+}
+
+
+
+    .itemtype {
+        width: 130mm;
+    }
+
+.itemordercode {
+    width: 60mm;		
+}
+.productcode {
+width: 35mm;
+}
+.manufacturer {
+    width: 45mm;
+    }
+.amount_unit {
+    width: 20mm;
+    }
+.amount {
+    width: 20mm;
+    }
+
+
+
+
+
+
+@font-face {
+
+font-family: 'FontName'; 
+src: url(ISOCPEUI.TTF); 
+
+}
+H4 {
+text-align: center;
+line-height: 1;		
+}
+
