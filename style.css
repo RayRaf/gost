@@ -29,7 +29,7 @@ html, body {
 
 .speccontainer {
     position: absolute;
-    left: 53mm;
+    left: 32mm;
     top:52mm;
 }
 
@@ -50,6 +50,10 @@ html, body {
     margin: -3.6%;
 }
 
+
+.itemtag {
+    width: 20mm;
+}
 
 
 .itemtype {
@@ -83,6 +87,10 @@ html, body {
 }
 H4 {
     text-align: center;
-    line-height: 1;		
+    line-height: 1.33;			
 }
 
+.seccaption {
+    text-decoration:underline;
+    font-weight: bold;
+}
