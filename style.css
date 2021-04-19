@@ -44,7 +44,7 @@ html, body {
     font-size: 6mm;
     width: 335mm;
     line-height: 1.33;
-    max-height:150mm;
+    /* max-height:150mm; */
     text-align: center;
     padding: 0%;
     margin: -3.6%;

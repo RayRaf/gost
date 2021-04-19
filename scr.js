@@ -12,11 +12,18 @@
             for (var i = 0; i < list.length; i++) {
             //    list[i].style.background= "red";
             var st = getStyles(list[i]);
-        
-            console.log(getComputedStyle(list[i]).height);
+            var compst = getComputedStyle(list[i]).height;     
 
-            // var val = Number.parseFloat(list[i].height);
-            // if(val < 650) alert("Данные не влезают на первую странцу");
+            console.log(compst);
+
+            //console.log(getComputedStyle(list[i]).height);
+
+
+
+
+            var val = Number.parseInt(compst.replace("px",""));
+            console.log(val);
+            if(val > 677) alert("Данные не влезают на первую странцу");
             
 
         }
