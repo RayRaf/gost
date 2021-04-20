@@ -27,7 +27,7 @@
 
             }
 
-            //Выведем на консоль все id элементов
+            //Выведем на консоль все id элементов и значения высоты
             var i = 1;
             while (document.getElementById('line'+i) != undefined)
                 {
