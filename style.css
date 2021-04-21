@@ -16,7 +16,7 @@ html, body {
     page-break-after:always;
     background-image: url('icon.svg');
 }
-.second_page {
+.next_page {
     background-color: white;
     width: 420mm;
     height: 297mm;
@@ -76,7 +76,9 @@ html, body {
     width: 20mm;
     }
 
-
+.raw_lines {
+    display: none;
+}
 
 
 
